@@ -29,6 +29,8 @@ Each substantial utility should live in its own folder and include:
 - dependency information
 - no secrets, credentials, tokens, or real recipient data committed to Git
 
+Development uses a lightweight category-integration branching model: `main` contains stable scripts, category branches such as `email` integrate related work, and short-lived `feat/...` branches isolate individual utilities. See [`docs/BRANCHING.md`](docs/BRANCHING.md).
+
 ## License
 
 MIT
